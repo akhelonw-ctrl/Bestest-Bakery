@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Products</title>
+<link rel="stylesheet" href="css/style.css">
+
+<style>body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f5f5f5;
+}
+
+/* HEADER */
+
+header{
+background:#8b0000;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+/* NAVIGATION */
+
+nav ul{
+list-style:none;
+padding:0;
+}
+
+nav ul li{
+display:inline;
+margin:15px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+text-decoration:underline;
+}
+
+/* HERO SECTION */
+
+.hero{
+background:#ffe4c4;
+padding:80px;
+text-align:center;
+}
+
+.hero h2{
+font-size:40px;
+}
+
+/* BUTTON */
+
+.btn{
+background:#8b0000;
+color:white;
+padding:12px 25px;
+border-radius:5px;
+text-decoration:none;
+}
+
+.btn:hover{
+background:#a52a2a;
+}
+
+/* CONTENT AREA */
+
+.content{
+padding:40px;
+}
+
+/* CARDS (products/services) */
+
+.services{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+padding:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+margin:10px;
+width:250px;
+box-shadow:0 0 10px grey;
+border-radius:5px;
+}
+
+/* FORM */
+
+form{
+max-width:400px;
+margin:auto;
+background:white;
+padding:20px;
+box-shadow:0 0 5px grey;
+}
+
+input{
+width:100%;
+padding:10px;
+margin:10px 0;
+}
+
+button{
+padding:12px;
+background:#8b0000;
+color:white;
+border:none;
+width:100%;
+}
+
+button:hover{
+background:#a52a2a;
+}
+
+/* FOOTER */
+
+footer{
+background:#333;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:40px;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media(max-width:768px){
+
+.services{
+flex-direction:column;
+align-items:center;
+}
+
+nav ul li{
+display:block;
+margin:10px;
+}
+
+.hero{
+padding:40px;
+}
+
+}</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Bestest Bakery</h1>
+
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="products.html">Products</a></li>
+<li><a href="signup.html">Sign Up</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<section class="services">
+
+<h2>Our Products</h2>
+
+<div class="card">
+<h3>Bread</h3>
+<p>Fresh white bread, whole wheat and coconut bread.</p>
+ <img src="images/Flavour Dishes.jpg"
+        width="250px" height="200px"
+         />
+</div>
+
+<div class="card">
+<h3>Pastries</h3>
+<p>Delicious croissants, patties and danishes.</p>
+<img src="images/Delicious Homemade Blueberry Cream Cheese Danish Recipe.jpg"
+        width="250px" height="200px"
+         />
+
+</div>
+
+<div class="card">
+<h3>Cakes</h3>
+<p>Birthday cakes, wedding cakes and cupcakes.</p>
+<img src="images/🍰 Red Velvet Cake.jpg"
+        width="250px" height="200px"
+         />
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Bestest Bakery</p>
+</footer>
+
+</body>
+</html>
